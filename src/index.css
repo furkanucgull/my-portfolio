@@ -1,7 +1,55 @@
-@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url("https://fonts.cdnfonts.com/css/general-sans");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --font-general: General Sans, serif;
+  --font-roboto: Roboto, sans-serif;
+}
 body {
-    background: #010103;
-    font-family: 'General Sans', sans-serif;
+  background: #010103;
+  font-family: "General Sans", sans-serif;
+}
+.c-space{
+  @apply sm:px-10 px-5
+}
+/* hero section */
+.hero_tag {
+  @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-general font-black !leading-normal;
+}
+.text-gray_gradient {
+  @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
+}
+.waving-hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(14deg);
+  }
+  30% {
+    transform: rotate(-8deg);
+  }
+  40% {
+    transform: rotate(14deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
