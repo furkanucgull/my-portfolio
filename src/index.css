@@ -30,6 +30,19 @@ body {
 .text-gray_gradient {
   @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
 }
+/* about section */
+.grid-container {
+  @apply w-full h-full border border-[#1C1C21] bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+}
+.grid-headtext {
+  @apply text-xl font-semibold mb-2 text-white font-general;
+}
+.grid-subtext {
+  @apply text-[#afb0b6] text-base font-general;
+}
+.copy-container {
+  @apply cursor-pointer flex justify-center items-center gap-2;
+}
 .waving-hand {
   animation-name: wave-animation;
   animation-duration: 2.5s;
