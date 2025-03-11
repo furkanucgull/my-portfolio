@@ -10,8 +10,18 @@ body {
   background: #010103;
   font-family: "General Sans", sans-serif;
 }
-.c-space{
-  @apply sm:px-10 px-5
+.c-space {
+  @apply sm:px-10 px-5;
+}
+/*Buttons */
+.btn {
+  @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md   transition-all active:scale-95 text-white bg-[#1C1C21] mx-auto;
+}
+.btn-ping {
+  @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75;
+}
+.btn-ping_dot {
+  @apply relative inline-flex rounded-full h-3 w-3 bg-green-500;
 }
 /* hero section */
 .hero_tag {
