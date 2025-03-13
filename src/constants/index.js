@@ -21,48 +21,19 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-  },
-  {
-    id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
-  },
-  {
-    id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-  },
-  {
-    id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
-    img: "assets/review4.png",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
-  },
-];
-
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
-    subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+    title: "AI Help Bot App",
+    desc: "This is an AI-powered chatbot application built using modern web technologies. The project utilizes OpenAI's GPT model to provide intelligent responses to user queries in natural language.",
+    subdesc: [
+      "🧠 AI-driven chatbot for answering user questions",
+      "      🌐 Built with Next.js for a seamless and modern UI",
+      "      🔄 Real-time data fetching using GraphQL",
+      "      🎨 Styled with Tailwind CSS for a responsive and clean design",
+      "      🚀 Deployed on Vercel for fast and easy access,",
+    ],
+
+    href: "https://ai-help-bot-app.vercel.app/",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -72,6 +43,11 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight1.png",
     tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/Nextjs.svg",
+      },
       {
         id: 1,
         name: "React.js",
@@ -89,17 +65,24 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "GraphQl",
+        path: "/assets/graphql.svg",
       },
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
-    subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    title: "React Movie App",
+    desc: "React Movie App is a movie search application built with React.js, Vite, and Tailwind CSS. It fetches movie data from The Movie Database (TMDb) API and allows users to search for movies while tracking trending searches using Appwrite.",
+    subdesc: [
+      "⚠️ Warning: This API does not work in Turkey. It functions properly outside of Turkey.",
+      "🔍 Search Movies: Users can search for movies by title.\n",
+      "📈 Trending Movies: Displays trending movies based on user searches.\n",
+      "⚡ Fast Performance: Built with Vite for a smooth development experience.\n",
+      "🎨 Styled with Tailwind CSS: Modern and responsive UI.\n",
+      "📊 Search Analytics: Tracks search popularity using Appwrite.",
+    ],
+
+    href: "https://furkanucgull-movie-app.netlify.app/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
@@ -125,18 +108,24 @@ export const myProjects = [
         path: "/assets/typescript.png",
       },
       {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        id: 3,
+        name: "AppWrite",
+        path: "/assets/appwrite.svg",
       },
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-    subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    title: "Real-Time Chat Application",
+    desc: "A real-time chat application built with Next.js, Socket.io, and React. This application allows users to join specific rooms, send messages, and view messages instantly. The backend is built using Node.js and Socket.io, facilitating WebSocket communication for real-time messaging between users.",
+    subdesc: [
+      "💬 Real-Time Messaging: Users can send and receive messages instantly using Socket.io.\n",
+      "🚪 Join Rooms: Users can join rooms by specifying a room name.\n",
+      "🎨 User-Friendly Interface: Responsive design built with React and Tailwind CSS.\n",
+      "📢 System Messages: System messages notify when a user joins or leaves a room.\n",
+      "🔧 Currently it works only on local server socket",
+    ],
+
+    href: "https://real-time-chat-app-plum-seven.vercel.app/",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
@@ -150,8 +139,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Next.js",
+        path: "/assets/Nextjs.svg",
       },
       {
         id: 2,
@@ -163,19 +152,21 @@ export const myProjects = [
         name: "TypeScript",
         path: "/assets/typescript.png",
       },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
-    subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+    title: "E-Commerce App",
+    desc: "A modern e-commerce application built with React, Redux Toolkit, and Tailwind CSS. This app allows users to browse products, add them to a basket, and manage their shopping cart. It also integrates with a fake store API to fetch product data.",
+    subdesc: [
+      "📦 Product Listing: Fetch and display products from a fake store API. ",
+      "🔍 Product Search: Search for products by name or description.",
+      "🛒 Shopping Basket: Add and remove products from the basket.",
+      "💾 Persistent Basket: Basket data is stored in localStorage for persistence across page reloads.",
+      "⏳ Loading State: Display a loading spinner while fetching data.",
+      "📱 Responsive Design: The application is fully responsive and works seamlessly on all devices.",
+    ],
+
+    href: "e-commerceapptrial.netlify.app/",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
@@ -201,46 +192,9 @@ export const myProjects = [
         path: "/assets/typescript.png",
       },
       {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-    subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
-    logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
-    },
-    spotlight: "/assets/spotlight5.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "React Redux",
+        path: "/assets/redux.svg",
       },
     ],
   },
@@ -310,32 +264,44 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
+    name: "Freelancer",
+    pos: "Full Stack Developer | React & .NET",
     duration: "2022 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
-    animation: "victory",
+      "Building scalable web applications with React on the frontend and .NET on the backend. Experienced in developing interactive UIs, RESTful APIs, and database management. Passionate about writing clean, maintainable code and continuously improving development workflows.",
+    icon: "/assets/freelance.png",
+    animation: "salute",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "European Union",
+    pos: "Content Creator, Educator, English Teacher",
+    duration: "2023 - 2024",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "As part of my ESC project in Gdynia, Poland, I conducted engaging lessons for kids and young adults, covering front-end development and English language skills. I introduced students to essential web technologies (HTML, CSS, JavaScript) , guiding them in building real-world projects. Additionally, I tailored interactive English lessons to different proficiency levels, focusing on grammar, vocabulary, speaking, and listening skills while integrating multimedia resources to enhance learning.",
+    icon: "/assets/eu.svg",
+    animation: "victory",
+  },
+
+  {
+    id: 2,
+    name: "Birlesim Engineering",
+    pos: "Field Engineer",
+    duration: "2022 - 2023",
+    title:
+      " Mechanical Field Engineer – Turkey’s Second-Largest Airport Project\n" +
+      "Managed mechanical operations for the terminal building, overseeing the installation, testing, and commissioning of HVAC, plumbing, and fire protection systems. Worked closely with architects and contractors to ensure timely execution and compliance with industry standards. Held key responsibility for 25% of all mechanical works related to the terminal building.",
+    icon: "/assets/birlesim.png",
     animation: "clapping",
   },
-  {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
-  },
+  // {
+  //   id: 3,
+  //   name: "Notion",
+  //   pos: "Junior Web Developer",
+  //   duration: "2019 - 2020",
+  //   title:
+  //     "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+  //   icon: "/assets/notion.svg",
+  //   animation: "salute",
+  // },
 ];
