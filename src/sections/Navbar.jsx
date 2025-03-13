@@ -8,14 +8,15 @@ const Navbar = () => {
         {navLinks.map(({ id, href, name }) => (
           <li
             key={id}
-            className="text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5"
+            className="cursor-pointer text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5"
           >
-            {name}
             <a
               href={href}
-              className="text-lg md:text-base hover:text-white transition-colors"
+              className="text-lg md:text-base hover:text-white transition-colors "
               onClick={() => {}}
-            ></a>
+            >
+              {name}
+            </a>
           </li>
         ))}
       </ul>
