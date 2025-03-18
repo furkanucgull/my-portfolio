@@ -294,14 +294,5 @@ export const workExperiences = [
     icon: "/assets/birlesim.png",
     animation: "clapping",
   },
-  // {
-  //   id: 3,
-  //   name: "Notion",
-  //   pos: "Junior Web Developer",
-  //   duration: "2019 - 2020",
-  //   title:
-  //     "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-  //   icon: "/assets/notion.svg",
-  //   animation: "salute",
-  // },
+
 ];
