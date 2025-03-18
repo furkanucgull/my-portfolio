@@ -166,7 +166,7 @@ export const myProjects = [
       "📱 Responsive Design: The application is fully responsive and works seamlessly on all devices.",
     ],
 
-    href: "e-commerceapptrial.netlify.app/",
+    href: "https://e-commerceapptrial.netlify.app/",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
