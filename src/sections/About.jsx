@@ -1,6 +1,5 @@
 import {useRef, useState} from "react";
 import Globe from "react-globe.gl";
-
 import Button from "../components/Button.jsx";
 
 const About = () => {
@@ -78,7 +77,7 @@ const About = () => {
                 backgroundImageOpacity={0.5}
                 showAtmosphere
                 showGraticules
-                globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+                globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg"
                 labelsData={[
                   {
                     lat: 37.0,
