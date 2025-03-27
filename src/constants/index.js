@@ -196,8 +196,53 @@ export const myProjects = [
         name: "React Redux",
         path: "/assets/redux.svg",
       },
+
     ],
   },
+  {
+    title: "Lord of the Rings Interactive Experience",
+    desc: "An immersive React application showcasing the world of Middle-earth with cinematic animations and interactive elements. This award-winning website brings J.R.R. Tolkien's universe to life through GSAP animations, responsive design, and atmospheric storytelling.",
+    subdesc: [
+      "🧙‍♂️ Interactive Middle-earth Journey: Explore key locations with hover effects",
+      "🎬 Cinematic Animations: GSAP-powered transitions and scroll effects",
+      "🏰 Authentic Design: Tolkien-inspired typography and color palette",
+      "📜 Storytelling Experience: Animated narrative sections",
+      "🌐 Responsive Design: Optimized for all devices",
+      "🎶 Atmospheric Audio: Original soundtrack integration"
+    ],
+    href: "https://my-lotr-fan-page.vercel.app",
+    texture: "/textures/project/project5.mp4",
+    logo: "/assets/lotr.png",
+    logoStyle: {
+      backgroundColor: "#0A180F",
+      border: "0.2px solid #5E2C04",
+      boxShadow: "0px 0px 60px 0px #FFD7004D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg"
+      },
+      {
+        id: 2,
+        name: "GSAP",
+        path: "/assets/gsap.jpg"
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png"
+      },
+      {
+        id: 4,
+        name: "Vite",
+        path: "/assets/vite.svg"
+      },
+
+    ]
+  }
 ];
 
 // export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -266,7 +311,7 @@ export const workExperiences = [
     id: 1,
     name: "Freelancer",
     pos: "Full Stack Developer | React & .NET",
-    duration: "2022 - Present",
+    duration: "2023 - Present",
     title:
       "Building scalable web applications with React on the frontend and .NET on the backend. Experienced in developing interactive UIs, RESTful APIs, and database management. Passionate about writing clean, maintainable code and continuously improving development workflows.",
     icon: "/assets/freelance.png",
